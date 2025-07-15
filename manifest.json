@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Reddit Positive Tone Enhancer",
+  "version": "1.0",
+  "description": "Analyzes Reddit post content and rewrites negative posts to be more positive using AI.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.reddit.com/*",
+    "https://text.pollinations.ai/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.reddit.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+} 
