@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reddit Lens Extension</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h2>Reddit Lenses</h2>
+  <form id="lenses-form">
+    <label><input type="checkbox" id="mage-lens"> Mage Lens (AI Image)</label><br>
+    <div id="mage-options" style="margin-left:18px; margin-bottom:10px; display:none;">
+      <label>Image Position:
+        <select id="mage-img-pos">
+          <option value="start">Start of Post</option>
+          <option value="end">End of Post</option>
+        </select>
+      </label><br>
+      <label>Image Style:
+        <select id="mage-img-style">
+          <option value="default">Default</option>
+          <option value="chibi">Chibi</option>
+          <option value="anime">Anime</option>
+          <option value="cartoon">Cartoon</option>
+          <option value="realistic">Realistic</option>
+          <option value="semi-realistic">Semi-Realistic</option>
+        </select>
+      </label><br>
+      <label>Image Size:
+        <select id="mage-img-size">
+          <option value="small">Small</option>
+          <option value="medium" selected>Medium</option>
+          <option value="large">Large</option>
+        </select>
+      </label>
+    </div>
+    <label><input type="checkbox" id="positive-lens"> Positive Lens</label><br>
+    <label><input type="checkbox" id="objective-lens"> Objective Lens</label><br>
+    <label><input type="checkbox" id="tldr-lens"> TL;DR Lens</label><br>
+    <label><input type="checkbox" id="funny-lens"> Funny Lens</label><br>
+    <label><input type="checkbox" id="all-off"> All Off</label>
+  </form>
+  <div class="info">
+    <a href="https://github.com/your-repo" target="_blank">About this extension</a>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
