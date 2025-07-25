@@ -6,7 +6,7 @@ Ever find yourself doomscrolling Reddit and thinking, “Why is everything here 
 Slap on one (or all) of these 5 chaotic-good lenses:
 
 🧙‍♂️ Mage Lens 
-- Tired of using your imagination? Let this lens generate an AI image based on the post so you can finally see what that “shower thought” would look like if it had a face. You’re welcome, visual learners.
+- Tired of using your imagination? Let this lens generate an AI image based on the post so you can finally see what that “shower thought” would look like if it had a face. You’re welcome, visual learners. Uses a free image api (pollinations ai) so image might not be the best.
 
 🌈 Positive Lens
 - For when Reddit's negativity is bleeding into your soul. This lens rewrites those self-pity posts and ragebait titles into something that doesn’t make you want to eat drywall. Like therapy, but sassier.
