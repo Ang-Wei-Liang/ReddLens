@@ -1,12 +1,12 @@
 
 # ReddLens
 
-Ever find yourself doomscrolling Reddit and thinking, “Why is everything here either depressing, biased, or 8 paragraphs too long?” Same. That’s why we built ReddLens – your all-in-one chrome extension lens for Reddit posts.
+Ever find yourself doomscrolling Reddit and thinking, “Why is everything here either depressing, biased, or 8 paragraphs too long?” Same. That’s why we built ReddLens – your all-in-one chrome extension lens for Reddit posts. This is still a work in progress, there is prompt engineering to do for phrase for better results, and errors messages in the console.
 
 Slap on one (or all) of these 5 chaotic-good lenses:
 
 🧙‍♂️ Mage Lens 
-- Tired of using your imagination? Let this lens generate an AI image based on the post so you can finally see what that “shower thought” would look like if it had a face. You’re welcome, visual learners. Uses a free image api (pollinations ai) so image might not be the best.
+- Tired of using your imagination? Let this lens generate an AI image based on the post so you can finally see what that “shower thought” would look like if it had a face. You’re welcome, visual learners. Uses a free image api (pollinations ai) so image might not be the best, but can definitely be resolved with better prompt engineering.
 
 🌈 Positive Lens
 - For when Reddit's negativity is bleeding into your soul. This lens rewrites those self-pity posts and ragebait titles into something that doesn’t make you want to eat drywall. Like therapy, but sassier.
@@ -43,8 +43,8 @@ Slap on one (or all) of these 5 chaotic-good lenses:
 ### 🧠 Function 4 – Original vs Summary
 
 <div align="center">
-  <img src="readme_images/function3original.png" width="45%"/>
-  <img src="readme_images/function3summary.png" width="45%"/>
+  <img src="readme_images/function3original.png" height="600"/>
+  <img src="readme_images/function3summary.png" height="300"/>
 </div>
 
 
